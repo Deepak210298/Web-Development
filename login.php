@@ -75,21 +75,4 @@
         }
     }*/
     
-    
-    
-   /* $mail[] = "SELECT email FROM `sample project`.registration";
-    $Paswrd[] = "SELECT password FROM `sample project`.registration";
-    
-    $i = 1;
-    while ($i <= 2)
-    {
-        print_r($mail[1]);
-        if($Email_id == $mail[$i] && $security == $Paswrd[$i]){
-            echo $Email_id;
-        }else{
-            echo $security;
-        }
-        $i++;
-    }*/
-    
 ?>
