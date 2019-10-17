@@ -18,6 +18,7 @@
     {
         echo 'Data is exist';
     }
-    else
+    else{
         echo 'Wrong credential';
+    }
 ?>
