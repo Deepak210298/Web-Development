@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Table</title>
+    </head>
+    <body>
+        <table border="1" cellpadding="40px">
+            <tr>
+                <th>Product ID</th>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Buy Now</th>
+            </tr>
+            <tr>
+                <td>SKU10101</td>
+                <td>
+                    <img src="Image\tshirt.jpg" alt="tshirt image" height="300px" width="240px">
+                </td>
+                <td>T-shirts</td>
+                <td>Made with fine 100% cotton</td>
+                <td><a href="#">Buy Now</a></td>
+            </tr>
+            <tr>
+                <td>SKU10102</td>
+                <td>
+                    <img src="Image\jeans.jpg" alt="jeans image" height="300px" width="240px">
+                </td>
+                <td>Pants</td>
+                <td>Slim and Straights cut jeans</td>
+                <td><a href="#">Buy Now</a></td>
+            </tr>
+            <tr>
+                <td colspan="4">Product from <a href="https://www.amazon.com">Amazon.com</a></td>
+            </tr>
+        </table>
+    </body>
+</html>
