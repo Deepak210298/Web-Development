@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Music Exercise</title>
+    </head>
+    <body>
+        <h1>Shape Of You MP3 Download</h1>
+        <p><a href="#">Facebook.com</a> <a href="#">Twitter.com</a> <a href="#">Bing.com</a></p>
+
+        <table cellpadding="10px">
+
+            <tr>
+                <td colspan="2">
+                    <img src="Image\Shape_of_you.jpg" height="250px" width="350px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://mp3paw.com/mp3-download/7331441/Shape-Of-You" target="_blank">
+                        <img src="Image\download.png" height="64px" width="64px">
+                    </a>
+                    <br>
+                    <strong>6.4m<sup>+</sup></strong>
+                </td>
+                <td>
+                    <p></p><strong>03:59</strong> - <i>Ed Sheeran Shape of you NEW SONG 2017</i></p>
+                    <audio controls>
+                        <source src="#" type="audio/mp3">
+                        audio is not supported by browser
+                    </audio>
+                </td>    
+            </tr>
+        </table>
+        
+        <hr>
+        <p>Copyrights (C) 2019 <a href="#" target="_blank">Audiomp3.com</a></p>
+        
+        
+        
+    </body>
+</html>
