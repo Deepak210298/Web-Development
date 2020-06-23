@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+</head>
+<body>    
+    <img src="casper.png" alt="casper">
+    <header>
+        <p class="top-liner">Over 35,000 5* reviews</p>
+        <h1>This is what award winning comfort feels like</h1>
+        <a href="#" class="main-button"> Shop for mattresses</a>
+        <p class="footer-text">According to Caspers global onsite customer reviews</p>
+    </header>
+
+    <div class="testimonials">
+        <h1>Our mattresses have everyone talking...</h1>
+        <div class="reviews">
+            <h2>TIME</h2>
+            <p>One of the Times 25 best Inventions</p>
+        </div>
+
+        <div class="reviews">
+            <h2>GOOD HOUSE KEEPING</h2>
+            <p>Good Housekeeping 2018 Lab pick</p>
+        </div>
+
+        <div class="reviews">
+            <h2>GOOGLE</h2>
+            <p>The perfect matress according to science</p>
+        </div>
+    </div>
+
+    <footer>
+        Copyright @ <a href="https://casper.com" target="_blank">
+        Casper.com</a>
+    </footer>
+</body>
+</html>
