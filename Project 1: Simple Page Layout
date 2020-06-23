@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page Layout</title>
+    <style>
+        *, *:before, *:after{
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: blue; 
+            text-align: center;
+            margin: 0;  
+            color: white;
+        }
+
+        .container{
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        .header, .nav, .section, .footer{
+            border: 1px solid white;            
+            margin: 10px 20px;
+        }
+
+        .nav, .section{ 
+            padding: 200px 0;
+        }   
+
+        .header, .footer{
+            padding: 20px;
+        }
+
+        .nav, .section, .footer{
+            float: left;
+        }
+
+        .nav{
+            width: 200px;
+        }
+
+        .section{
+            width: 680px;
+        }
+
+        .footer{
+            width: 920px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Project 1: Simple Layout</h1>
+        <div class="header">HEADEER</div>
+        <div class="nav">NAV</div>
+        <div class="section">SECTION</div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>
