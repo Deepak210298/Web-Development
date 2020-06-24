@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" type="text/css" href="Survey Page Style.css" media="screen"/>
+</head>
+<body>
+    <header>
+        <h1>SURVEY.COM</h1>
+    </header>
+    <section>
+        <h1>Submit your Survey Today!</h1>
+        <form method="POST" action="results.html">
+            <label for="Name">Your Name</label>
+            <input type="text" id="Name" placeholder="" name="Your name">
+            <label for="Email">Your Email</label>
+            <input type="email" id="Email" placeholder="" name="your email">
+            <p>
+                <label for="select">Select</label>
+                <select id="select">
+                    <optgroup label="Option Group 1">
+                        <option>Option one</option>
+                        <option>Option two</option>
+                        <option>Option three</option>
+                    </optgroup>
+                    <optgroup label="Option Group 2">
+                        <option>Option one</option>
+                        <option>Option two</option>
+                        <option>Option three</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="checkbox Option 1">checkbox 1</label>
+                <input type="checkbox" id="checkbox option 1" name="checkbox 1" checked="">
+                <label for="checkbox Option 2">checkbox 2</label>
+                <input type="checkbox" id="checkbox option 2" name="checkbox 2">
+                <label for="checkbox Option 3">checkbox 3</label>
+                <input type="checkbox" id="checkbox option 3" name="checkbox 3">
+            </p>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </section>
+    
+    <footer>
+        <p class="footer">Copyright @ <a href="#" class="afooter">YourSite.com</a></p>
+    </footer>
+</body>
+</html>
