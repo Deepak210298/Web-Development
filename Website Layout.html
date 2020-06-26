@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style type="text/css">
+        body{
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header, footer{
+            padding: 0px;
+            text-align: center;
+        }
+
+        /*header, section, article, aside, footer{
+            display: block;
+        }*/
+
+        aside{
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Page Layout 1</h1>
+    </header>
+    <hr>
+    
+    <aside>
+        <figure>
+            <img src="dog.jpg" alt="dog-image" height="120px" width="120px">
+            <figcaption>Cute Dogs</figcaption>
+        </figure>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </aside>
+    
+    <section>
+        <article>
+            <header><h2>Article 1</h2></header> 
+            <div>
+                <p>
+                    <strong>Lorem ipsum</strong> is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without 
+                    relying on meaningful content.<br>
+                </p>
+            </div>
+            <p>End of Article 1.</p>
+        </article>
+        
+    
+        <article>
+            <header><h2>Article 2</h2></header> 
+            <div>
+                <p>
+                    <strong>Lorem ipsum</strong> is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without 
+                    relying on meaningful content.<br>
+                </p>
+            </div>
+            <p>End of Article 2.</p>
+        </article>
+    </section>
+
+    <footer>
+        <hr>
+        <p>Copyright (C) - yoursite.com</p>
+    </footer>
+</body>
+</html>
