@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav-bar{
+    float: right;
+}
+
+#nav-bar li{
+    display: inline-block;
+    padding: 8px;
+}
+
+
+#nav-bar #sign_in{
+    background: rgb(71, 71, 240);
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nav-links{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav-links a:hover{
+    text-decoration: underline;
+}
+
+#sign_in:hover{
+    box-shadow: 1px 1px 2px rgb(100, 98, 98);
+}
+
+#sign-in{
+    color: rgb(63, 63, 192);
+}
+
+.google #google_logo{
+    display: block;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+.form{
+    text-align: center;
+}
+
+#form-search{
+    width: 450px;
+    line-height: 32px;
+    padding: 10px;
+}
+
+.buttons{
+    text-align: center;
+    margin-bottom: 150px;
+    padding-top: 30px;
+}
+
+footer{
+    background: rgba(245, 245, 245, 0.795);
+    border-top: solid 2px black;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+footer ul li{
+    display: inline;
+    font-size: 16px;
+    color: gray;
+    padding: 13px;
+}
+
+footer ul{
+    float: left;
+    padding: 1px;
+}
+
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+.footer-right{
+    float: right;
+}
