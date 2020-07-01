@@ -7,133 +7,125 @@
     <title>Good Vibes Form</title>
 </head>
 <body>
-    <h1>Good Vibes Form</h1>
     <main>
-        <div class="working_area">
-            <p class="big">Tell us something positive that happened to you today.</p>
-            <form method="POST">
-                <table class="tble1">
-                    <tr>
-                        <td><label for="your name"><p>Name</p></label></td>
-                        <td><input id="your name" placeholder="Enter your name" type="text" name="Name"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="your email"><p>Email</p></label></td>
-                        <td><input id="your email" placeholder="Enter your email" type="email" name="Email"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="rating"><p>On a scale of 1-10, how good was it?</p></label></td>
-                        <td><select id="rating">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select></td>
-                    </tr>
-                    <tr>
-                        <td><label for="location"><p>Where did it happen?</p></label></td>
-                        <td><select id="location">
-                            <option selected>At home</option>
-                            <option>On my commute</option>
-                            <option>At work</option>
-                            <option>On the street</option>
-                            <option>Other</option>
-                        </select></td>
-                    </tr>
-                    <tr>
-                        <td><p>At what time of day did it happen?</p></td>
-                        <td>
-                            <table id="tble2">
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="morning" name="Morning">
-                                    </td>
-                                    <td>
-                                        <label for="morning">Morning</label>
-                                    </td>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="afternoon" name="Afternoon">
-                                    </td>
-                                    <td>
-                                        <label for="afternoon">Afternoon</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="evening" name="Evening">
-                                    </td>
-                                    <td>
-                                        <label for="evening">Evening</label>
-                                    </td>
-                                </tr>
-                            </table>    
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><p>What emotions did you experience?<br>
-                            (Select all that apply) </p></td>
-                        <td>
-                            <table id="tble2">
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="excited" name="Excited">
-                                    </td>
-                                    <td>
-                                        <label for="excited">Excited</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="humbled" name="Humbled">
-                                    </td>
-                                    <td>
-                                        <label for="humbled">Humbled</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="elated" name="Elated">
-                                    </td>
-                                    <td>
-                                        <label for="elated">Elated</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="loved" name="Loved">
-                                    </td>
-                                    <td>
-                                        <label for="loved">Loved</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" id="enthusiastic" name="Enthusiastic">   
-                                    </td>
-                                    <td>
-                                        <label for="enthusiastic">Enthusiastic</label>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><label for="feedback">Please describe your positive experience.</p></td>
-                        <td><textarea id="feedback" name="Experience" placeholder="Enter your Experience here..."></textarea></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="center">
-                            <input type="submit" value="submit" disabled>
-                        </td>
-                    </tr>
-                </table>
+        <h1 id="title">Good Vibes Form</h1>
+        <div class="master_div_style">
+            <p id="description">Tell us something positive that happened to you today.</p>
+            <form id="survey_form">
+                <div class="form_rows">
+                    <div class="labels">
+                        <label for="name" id="name-label">Name</label>
+                    </div>
+                    <div class="feilds">
+                        <input id="name" class="input_feilds" type="text" placeholder="Enter your name">
+                    </div>
+                </div>
+                <div class="form_rows">
+                    <div class="labels">
+                        <label for="email" id="email-label">Email</label>
+                    </div>
+                    <div class="feilds">
+                        <input id="email" class="input_feilds" type="email" placeholder="Enter your email address">
+                    </div>
+                </div>
+                <div class="form_rows">
+                    <div class="labels">
+                        <label id="number-label" for="number">On a scale of 1-10, how good was it?
+                        </label>
+                    </div>
+                    <div class="feilds">
+                        <input id="number" class="input_feilds" type="number" placeholder="Enter a number between 1 and 10" min="1" max="10">
+                    </div>
+                </div>
+                <div class="form_rows">
+                    <div class="labels">
+                        <label id="dropdown-label" for="dropdown">On a scale of 1-10, how good was it?</label>
+                    </div>
+                    <div class="feilds">
+                        <select id="dropdown" class="dropdown" name="Location of positive event">
+                            <option value="home">At home</option>
+                            <option value="commute">On my computer</option>
+                            <option value="work">At work</option>
+                            <option value="outside">On the street</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form_rows">
+                    <div class="labels">
+                        <label for="time-of-day">At what time of day did it happen?</label>
+                    </div>
+                    <div class="feilds">
+                        <ul id="time-od-day" style="list-style: none;">
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="time-radio" type="radio" value="1">
+                                    Morning
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="time-radio" type="radio" value="2">
+                                    Afternoon
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="time-radio" type="radio" value="3">
+                                    Evening
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form_rows">
+                    <div class="labels">
+                        <label for="feelings" id="email-label">What emotion did you experience?<br>(Select all that apply</label>
+                    </div>
+                    <div class="feilds">
+                        <ul id="feelings" style="list-style: none;">
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="feeling-check" type="checkbox" value="1">
+                                    Excited
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="feeling-check" type="checkbox" value="2">
+                                    Humbled
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="feeling-check" type="checkbox" value="3">
+                                    Elated
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="feeling-check" type="checkbox" value="4">
+                                    Loved
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input class="user-selection" name="feeling-check" type="checkbox" value="5">
+                                    Enthusiastic
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form_rows">
+                    <div class="labels">
+                        <label for="event-details">Please describe your positive experience.</label>
+                    </div>
+                    <div class="feilds">
+                        <textarea id="event-details" class="input_feilds" name="event-details" placeholder="Enter your experience here..." cols="1" rows="1" style="height: 50px; resize: vertical; font-family: Open Sans Condensed;"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="button" id="submit">Submit</button>
             </form>
         </div>
     </main>
