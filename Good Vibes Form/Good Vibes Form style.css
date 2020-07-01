@@ -71,6 +71,10 @@ p{
     margin-right: 5px;
 }
 
+.top{
+    vertical-align: top;
+}
+
 .button{
     font-size: 1em;
     color: white;
@@ -80,4 +84,8 @@ p{
     height: 40px;
     width: 80px;
     margin: 10px;
+}
+
+textarea{
+    vertical-align: middle;
 }
