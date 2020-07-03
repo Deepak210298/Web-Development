@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Survey Form style.css" type="text/css" media="screen">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!--::before-->
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <div class="work_area">
+        <form method="POST">
+            <div class="form_work">
+                <div class="rows">
+                    <div class="label">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="feilds">
+                        <input type="text" class="input_feilds" name="Name" id="name" placeholder="Enter your name">
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="label">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="feilds">
+                        <input type="email" class="input_feilds" name="Email" id="email" placeholder="Enter your Email">
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="label">
+                        <label for="age">Age <small>(optional)</small></label>
+                    </div>
+                    <div class="feilds">
+                        <input type="number" class="input_feilds" name="Age" id="age" placeholder="Enter your Age">
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="label">
+                        <label for="role">Which option best describes your current role?</label>
+                    </div>
+                    <div class="feilds">
+                        <select id="role" class="input_feilds">
+                            <option>Select current Role</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="rows">
+                    <div class="label">
+                        <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+                    </div>
+                    <div class="feilds">
+                        <ul id="recommend" style="list-style: none;">
+                            <li class="radio">
+                                <label>
+                                    <input type="radio" class="user_choice" id="share" name="Recommend" value="1" checked>
+                                    Definitely
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input type="radio" class="user_choice" id="share" name="Recommend" value="2">
+                                    Maybe
+                                </label>
+                            </li>
+                            <li class="radio">
+                                <label>
+                                    <input type="radio" class="user_choice" id="share" name="Recommend" value="3">
+                                    Not sure
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="rows">
+                        <div class="label">
+                            <label for="feature">What is your favorite feature of freeCodeCamp? </label>
+                        </div>
+                        <div class="feilds">
+                            <select id="feature" class="input_feilds">
+                                <option>Select an option</option>
+                                <option>Challenges</option>
+                                <option>Projects</option>
+                                <option>Community</option>
+                                <option>Open Source</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="label">
+                            <label for="improvement">What would you like to see improved? <small>(Check all that apply)</small></label>
+                        </div>
+                        <div class="feilds">
+                            <ul id="improvement" style="list-style: none;">
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="1">
+                                        Front-end Projects
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="2">
+                                        Back-end Projects
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="3">
+                                        Data Visualization
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="4">
+                                        Challenges
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="5">
+                                        Open Source Community
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="6">
+                                        Gitter help rooms
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="7">
+                                        Videos
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="8">
+                                        City Meetups
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="9">
+                                        Wiki
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="10">
+                                        Forum
+                                    </label>
+                                </li>
+                                <li class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="user_choice" id="chekbx" value="11">
+                                        Additional Courses
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="label">
+                            <label for="comments">Any comments or suggestions?</label>
+                        </div>
+                        <div class="feilds">
+                            <textarea placeholder="Enter your comment here.." rows="8" cols="40" style="width: 100%; padding: 10px 8px; font-size: 16px;"></textarea>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <button type="submit" class="button">Submit</button>
+                    </div>
+                </div>
+            </div>   
+        </form>
+    </div>
+</body>
+</html>
