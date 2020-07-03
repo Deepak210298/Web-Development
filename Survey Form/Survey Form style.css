@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('Coding.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;       
+}
+
+h1{
+    text-align: center;
+    margin: 30px auto 7px auto;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.form_work{
+    margin: 45px auto;
+    padding: 30px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.work_area{
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    background-color: rgb(56, 59, 230);
+    /*opacity: 0.6;*/
+}
+
+
+.rows{
+    display: block;
+    margin: 20px auto 0px auto;
+}
+
+.label{
+    font-size: 22px;
+    color: white;
+}
+
+.feilds{
+    text-align: left;
+    margin: 10px auto 0px auto;
+}
+
+.input_feilds{
+    padding: 9px;
+    /*margin: 10px;*/
+    width: 100%;
+    font-size: 16px;
+    font-family: serif;
+    border-radius: 4px;
+    border-color: rgb(199, 191, 191);
+    box-sizing: border-box;
+}
+
+.radio, .checkbox{
+    margin-bottom: 10px;
+    padding: 5px;
+    color: white;
+    position: relative;
+    left: -43px;
+}
+
+.user_choice{
+    margin-right: 10px;
+}
+
+.button{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    border: green;
+}
