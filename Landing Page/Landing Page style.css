@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome{
+    background: linear-gradient(
+        rgba(230, 226, 226, 0.45),
+        rgba(230, 226, 226, 0.45)
+    ), url('Coding.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+}
+
+.welcome h1{
+    font-size: 40px;
+}
+
+.welcome p{
+    font-size: 20px;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.welcome a{
+    padding: 15px;
+    font-size: 22px;
+    margin: 0 auto;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(88, 82, 82);
+    border: 1px solid rgb(187, 182, 182);
+}
+
+.welcome a:hover{
+    background-color: gray;
+}
+
+.web_para{
+    background-color: orange;
+    box-sizing: border-box;
+    margin-top: 0%;
+
+}
