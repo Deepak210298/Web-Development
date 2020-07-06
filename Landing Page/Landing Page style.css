@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    /*border: 1px solid red;*/
+    
 }
 
 body{
@@ -50,8 +50,160 @@ body{
 }
 
 .web_para{
-    background-color: orange;
-    box-sizing: border-box;
-    margin-top: 0%;
+    background-color: rgb(206, 197, 197);
+    margin: 0%;
+}
 
+.web_dev{
+    margin: 10px 0;
+}
+
+.web_dev h1{
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    font-size: 20px;
+    display: table;
+    text-align: justify;
+}
+
+.left{
+    width: 50%;
+    display: table-cell;
+}
+
+.row:nth-child(2) .left:nth-child(1){
+    padding: 30px 50px 30px 200px;
+}
+
+.row:nth-child(2) .left:nth-child(2){
+    padding: 30px 200px 30px 50px;
+    
+}
+
+.image{
+    background-color: black;
+    width: 100%;
+    margin: 0%;
+}
+
+.rows{
+    display: table;
+    margin: 0 auto;
+    max-width: 60%;
+
+}
+
+.develop{
+    display: table-cell;
+    width: 20%;
+}
+
+.develop figcaption{
+    background-color: white;
+    margin: 0%;
+}
+
+.develop h2{
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.develop p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px 0;
+}
+
+.handle{
+    background-color: rgb(206, 197, 197);
+}
+
+.handle h2{
+    padding: 30px 0;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+.handle p{
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+}
+
+.first_row{
+    margin: 0;
+    display: table;
+}
+
+.column{
+    display: table-cell;
+    width: 50%;
+    padding: 40px 50px 0 50px;
+    font-size: 18px;    
+    color: white;
+}
+
+.column h2{
+    margin: 35px 0 50px 0;
+}
+
+.column p{
+    margin-bottom: 40px;
+}
+
+.first_row:nth-child(1) .column:nth-child(1){
+    background-color: rgb(54, 120, 243);
+}
+
+.first_row:nth-child(1) .column:nth-child(2){
+    background-color: black;
+}
+
+ .footer{
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.footer_row{
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.col{
+    width: 50%;
+    display: table-cell;
+}
+
+.col p{
+    padding: 30px 0;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.col p>a{
+    color: rgb(54, 120, 243);
+    text-decoration: none;
 }
