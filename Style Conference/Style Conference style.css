@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red;    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.blue_color{
+    background-color: rgb(16, 38, 63);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.style_conference{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.style_conference a{
+    color: white;
+    text-decoration: none;
+    line-height: 44px;
+    font-size: 48px;
+    letter-spacing: .5px;
+    text-transform: uppercase;    
+}
+
+.style_conference h3{
+    display: inline-block;
+    position: absolute;
+    margin: 20px 0 20px 100px;    
+    top: 20px;
+    right: 12%;
+    color: white;
+}
+
+.style_conference nav{
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}
