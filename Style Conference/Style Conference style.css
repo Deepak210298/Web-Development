@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 1px solid red;    
+    /*border: 1px solid red;*/
 }
 
 body{
@@ -11,37 +11,127 @@ body{
 .blue_color{
     background-color: rgb(16, 38, 63);
     margin: 0;
-    padding: 0;
+    padding: 40px 0;
     width: 100%;
+}
+
+.first_section{
+    margin: 0;
+    padding: 0;
 }
 
 .style_conference{
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    
 }
 
 .style_conference a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
+    text-transform: uppercase;    
+}
+
+.text{
     line-height: 44px;
     font-size: 48px;
     letter-spacing: .5px;
-    text-transform: uppercase;    
 }
 
 .style_conference h3{
     display: inline-block;
     position: absolute;
-    margin: 20px 0 20px 100px;    
-    top: 20px;
+    margin: 20px 20px 20px 180px;    
+    top: 60px;
     right: 12%;
-    color: white;
+    color: rgb(141, 158, 175);
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .style_conference nav{
     text-transform: uppercase;
     color: white;
     font-size: 14px;
+    position: relative;
+    width: 60%;
+    float: right;
+    top: 10px;
+}
+
+.style_conference ul{
+    margin: 10px 0 0 10px;
+    position: relative;
+    width: 75%;
+    float: right;
+}
+
+.style_conference li{
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 18px;
+}
+
+.first_section h1{
+    width: 70%;
+    margin: 50px auto 15px auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 38px;
+    color: rgb(141, 158, 175);
+}
+
+.first_section h2{
+    font-size: 28px;
+    font-weight: lighter;
+    color: whitesmoke;
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.register{
+    width: 15%;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px white solid;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.transform p:hover{
+    background: white;
+    color: lightseagreen;
+}
+
+.transform{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+.second_section{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    width: 70%;
+    margin: 70px auto;
+    position: relative;
+}
+
+.col{
+    width: 33%;
+    position: relative;
+    display: inline-block;
+}
+
+.col p{
+    margin-left: 40px;
+    text-transform: uppercase;
 }
