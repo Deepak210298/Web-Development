@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    /*border: 1px solid red;*/
 }
 
 body{
@@ -8,7 +7,7 @@ body{
     padding: 0;
 }
 
-.blue_color{
+.header{
     background-color: rgb(16, 38, 63);
     margin: 0;
     padding: 40px 0;
@@ -120,18 +119,74 @@ body{
 }
 
 .row{
-    width: 70%;
-    margin: 70px auto;
-    position: relative;
+    margin: 70px 18%;
 }
 
 .col{
     width: 33%;
-    position: relative;
     display: inline-block;
 }
 
-.col p{
-    margin-left: 40px;
-    text-transform: uppercase;
+.col figure{
+    margin: 0;
+    padding: 0;
+}
+
+.col figure>p{
+    padding-bottom: 5px;
+    color: rgb(127, 182, 179);
+    font-size: 14px;
+}
+
+.col figcaption>a{
+    text-decoration: none;
+    color: rgb(66, 71, 77);
+    top: 20px;
+    position: relative;
+    font-size: 18px;
+}
+
+.col figcaption>a:hover{
+    color: rgb(105, 126, 125);
+}
+
+.col figcaption>p{
+    position: relative;
+    margin-top: 50px;
+    color: rgb(82, 88, 88);
+    width: 88%;
+}
+
+.footer{
+    background-color: rgb(16, 38, 63);
+    margin: 0;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.third_section{
+    position: relative;
+}
+
+.third_section p{
+    color: rgb(75, 88, 100);
+    width: 55%;
+    text-align: center;
+    display: inline-block;
+}
+
+.third_section ul{
+    list-style: none;
+    width: 45%;
+    float: right;
+}
+
+.third_section li{
+    display: inline-block;
+}
+
+.third_section li>a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
 }
