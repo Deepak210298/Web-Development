@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body{
@@ -98,31 +98,81 @@ body{
 
 .third_section{
     margin: 0;
-    padding: 40px 0;
+    padding-bottom: 40px;
 }
 
-.third_section h1, h2, p{
-    width: 44%;
-    margin-left: 16%;
+.speaker h1, h2, p{
+    margin-left: 24%;
 }
 
-.third_section h1{
+.speaker{
+    display: inline-block;
+    width: 60%;
+    position: relative;
+}
+
+.speaker h1{
     color: slategray;
     font-weight: lighter;
     font-size: 28px;
     padding-top: 50px;
 }
 
-.third_section h2{
+.speaker h2{
     color: lightslategray;
     font-weight: lighter;
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.third_section p{
+.speaker p{
     color: rgb(104, 99, 99);
     font-size: 18px;
+}
+
+.inline{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.image_section{
+    width: 40%;
+    float: right;
+}
+
+figure{
+    margin-top: 20%;
+}
+
+.image_section img{
+    margin-left: 33%;
+    position: relative;
+    
+}
+
+.image_section figcaption{
+    border: 1px solid rgb(191, 196, 201);
+    margin: -20% 20% 0 20%;
+    border-radius: 5px;
+}
+
+.image_section p{
+    text-align: center;
+    margin-left: 0;
+    padding-top: 30%;
+    padding-bottom: 5%;
+}
+
+.image_section a{
+    padding: 5px;
+    color: rgb(106, 118, 129);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.image_section a:hover{
+    color: rgb(191, 197, 204);
 }
 
 .footer{
@@ -132,30 +182,29 @@ body{
     width: 100%;
 }
 
-.last_section{
-    position: relative;
+.fourth_section{
+    width: 100%;
 }
 
-.last_section p{
+.fourth_section p{
     color: rgb(75, 88, 100);
-    width: 55%;
     text-align: center;
+    width: 55%;
     display: inline-block;
-    margin: 0;
+    margin-left: 0;
 }
 
-.last_section ul{
+.fourth_section ul{
     list-style: none;
     width: 45%;
     float: right;
-    bottom: -10px;
 }
 
-.last_section li{
+.fourth_section li{
     display: inline-block;
 }
 
-.last_section li>a{
+.fourth_section li>a{
     text-decoration: none;
     margin-left: 25px;
     color: white;
