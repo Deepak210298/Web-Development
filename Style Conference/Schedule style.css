@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(16, 38, 63);
+    margin: 0;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.first_section{
+    margin: 0;
+    padding: 0;
+}
+
+.style_conference{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.style_conference a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+
+.text{
+    line-height: 44px;
+    font-size: 48px;
+    letter-spacing: .5px;
+}
+
+.style_conference h3{
+    display: inline-block;
+    position: absolute;
+    margin: 20px 20px 20px 180px;    
+    top: 60px;
+    right: 12%;
+    color: rgb(141, 158, 175);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.style_conference nav{
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    width: 60%;
+    float: right;
+    top: 10px;
+}
+
+.style_conference ul{
+    margin: 10px 0 0 10px;
+    position: relative;
+    width: 75%;
+    float: right;
+}
+
+.style_conference li{
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 18px;
+}
+
+.second_section{
+    margin: 0;
+    padding: 20px 0 40px 0;
+    background: linear-gradient(
+        to right, rgb(138, 184, 138), rgb(252, 252, 217)
+    );
+}
+
+.second_section h1{
+    color: rgb(73, 99, 85);
+    font-weight: lighter;
+    font-size: 38px;
+    text-align: center;
+}
+
+.second_section p{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 0;
+    color: slategrey;
+}
+
+.third_section{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin: 40px 15%;
+    padding: 0;
+}
+
+.col{
+    margin: 20px 20px 0 20px;
+    padding: 0;
+    color: rgb(135, 141, 146);
+    font-size: 18px;
+}
+
+.col p:first-child{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.col p:last-child{
+    
+}
+
+hr{
+    width: 70%;
+    margin-left: 31%;
+    color: rgb(230, 235, 240);
+    
+}
+
+.col:first-child p:first-child{
+    color: rgb(47, 80, 61);
+    font-size: 22px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.join{
+    width: 70%;
+    float: right;   
+}
+
+.equal{
+    width: 50%;
+}
+
+
+.footer{
+    background-color: rgb(16, 38, 63);
+    margin: 0;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.fourth_section{
+    width: 100%;
+}
+
+.fourth_section p{
+    color: rgb(75, 88, 100);
+    text-align: center;
+    width: 55%;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.fourth_section ul{
+    list-style: none;
+    width: 45%;
+    float: right;
+}
+
+.fourth_section li{
+    display: inline-block;
+}
+
+.fourth_section li>a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+}
