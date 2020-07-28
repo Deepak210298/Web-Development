@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body{
@@ -101,49 +101,53 @@ body{
     padding: 0;
 }
 
-.row{
+.workshops{
     margin: 40px 15%;
     padding: 0;
 }
 
+.row{
+    margin: 0;
+}
+
 .col{
-    margin: 20px 20px 0 20px;
+    margin: 20px;
     padding: 0;
     color: rgb(135, 141, 146);
-    font-size: 18px;
 }
 
 .col p:first-child{
-    width: 30%;
+    width: 15%;
+    text-align: center;
     display: inline-block;
-    text-align: center;
 }
 
-.col p:last-child{
-    
-}
-
-hr{
-    width: 70%;
-    margin-left: 31%;
-    color: rgb(230, 235, 240);
-    
-}
-
-.col:first-child p:first-child{
-    color: rgb(47, 80, 61);
-    font-size: 22px;
-    margin-top: 12px;
-    text-align: center;
+.second_child{
+    width: 85%;
+    float: right;
 }
 
 .join{
-    width: 70%;
-    float: right;   
+    margin: 0;
+    width: 85%;
+    float: right;
 }
 
-.equal{
-    width: 50%;
+.join div:first-child{
+    margin-left: 0;
+}
+
+.join div{
+    margin: 10px 40px 0 10px; 
+    
+    width: 40%;
+    float: left;
+}
+
+hr{
+    width: 85%;
+    margin-left: 16%;
+    color: rgb(230, 235, 240);
 }
 
 
@@ -159,7 +163,7 @@ hr{
 }
 
 .fourth_section p{
-    color: rgb(75, 88, 100);
+    color: rgb(85, 104, 122);
     text-align: center;
     width: 55%;
     display: inline-block;
