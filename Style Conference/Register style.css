@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+/*    border: 1px solid red;*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(16, 38, 63);
+    margin: 0;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.first_section{
+    margin: 0;
+    padding: 0;
+}
+
+.style_conference{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.style_conference a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+
+.text{
+    line-height: 44px;
+    font-size: 48px;
+    letter-spacing: .5px;
+}
+
+.style_conference h3{
+    display: inline-block;
+    position: absolute;
+    margin: 20px 20px 20px 180px;    
+    top: 60px;
+    right: 12%;
+    color: rgb(141, 158, 175);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.style_conference nav{
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    width: 60%;
+    float: right;
+    top: 10px;
+}
+
+.style_conference ul{
+    margin: 10px 0 0 10px;
+    position: relative;
+    width: 75%;
+    float: right;
+}
+
+.style_conference li{
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 18px;
+}
+
+.second_section{
+    margin: 0;
+    padding: 20px 0 40px 0;
+    background: linear-gradient(
+        to right, rgb(138, 184, 138), rgb(252, 252, 217)
+    );
+}
+
+.second_section h1{
+    color: rgb(73, 99, 85);
+    font-weight: lighter;
+    font-size: 38px;
+    text-align: center;
+}
+
+.second_section p{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 0;
+    color: slategrey;
+}
+
+.third_section{
+    margin: 0;
+    padding: 0;
+}
+
+.register{
+    width: 74%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event{
+    width: 56%;
+}
+
+.event p:first-child{
+    color: rgb(48, 92, 67);
+    font-size: 28px;
+    margin: 0;
+}
+
+.color{
+    color: rgb(143, 155, 167);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.slategrey{
+    color: rgb(51, 55, 59);
+}
+
+.green{
+    color: rgb(43, 82, 60);
+    font-size: 20px;
+}
+
+.third_section li{
+    list-style-type: square;
+    color: slategray;
+    font-size: 17px;
+}
+
+form{
+    width: 40%;   
+}
+
+label{
+    display: block;
+    color: rgb(108, 136, 120);
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+label:first-child{
+    margin-top: 0;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid slategray;
+    padding: 8px 0;
+    width: 80%;
+}
+
+select{
+    border-radius: 5px;
+    border: 1px solid slategray;
+    padding: 8px 0;
+    width: 18%;
+}
+
+textarea{
+    width: 80%;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid slategray;
+}
+
+button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: rgb(41, 73, 105);
+    border-radius: 5px;
+    border: 1px solid slategray;
+}
+
+.footer{
+    background-color: rgb(16, 38, 63);
+    margin: 0;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.fourth_section{
+    width: 100%;
+}
+
+.fourth_section p{
+    color: rgb(85, 104, 122);
+    text-align: center;
+    width: 55%;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.fourth_section ul{
+    list-style: none;
+    width: 45%;
+    float: right;
+}
+
+.fourth_section li{
+    display: inline-block;
+}
+
+.fourth_section li>a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+}
