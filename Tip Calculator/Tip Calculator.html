@@ -11,23 +11,29 @@
 
 <body>
     <div class="calculator">
-        <p>Tip Calculator</p>
-        <div class="table">
-            <div class="total_bill">
-                <label for="bill">How much was your bill? </label>
-                <input type="text" id="bill" name="tbill" placeholder="Bill Amount">
-                <label for="service">How was your service?</label>
+        <p class="brown_color">Tip Calculator</p>
+        <form>
+            <label for="bill">How much was your bill?</label>
+            <p>
+                $
+                <input type="text" id="bill tot_bill" name="tbill" placeholder="Bill Amount">
+            </p>
+            <label for="service">How was your service?</label>
                 <select>
-                    <option value="">--Choose an Option--</option>
+                    <option value="0" disabled selected>--Choose an Option--</option>
                     <option value="">30% - Outstanding</option>
                     <option value="">20% - Good</option>
                     <option value="">15% - It was OK</option>
                     <option value="">10% - Bad</option>
                     <option value="">5% - Terrible</option>
                 </select>
-            </div>
-        </div>
-    </div>
-</body>
+            <label for="sharing">How many people are sharing the bill?</label>
+            <p><input type="text" id="sharing" name="tshare" placeholder="Number of People">&nbsp;people</p>
 
+            <button type="button" id="calculate">CALCULATE!</button>
+        </form>
+    </div>
+
+
+</body>
 </html>
