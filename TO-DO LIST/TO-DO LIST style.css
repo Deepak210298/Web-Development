@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body{
+    background-color: rgb(33, 159, 209);
+}
+
+.container-fluid{
+    display: flex;
+    align-content: center;
+}
+
+.work_area{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.work_area h1{
+    font-weight: bold;
+    color: white;
+}
+
+.work_area p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.pencil input{
+    padding : 10px;
+    border-radius: 5px;
+}
+
+.button{
+    
+}
+
+button{
+    padding: 10px;
+}
